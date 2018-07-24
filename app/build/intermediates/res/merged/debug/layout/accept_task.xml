@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--Google Map Fragment-->
+        <fragment
+            android:id="@+id/googleMap"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <RelativeLayout
+                android:id="@+id/reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="32dp">
+
+                <ImageView
+                    android:id="@+id/cross_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/red_cross" />
+
+                <in.delbird.delbirddriver.customview.GothamBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cross_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="Reject"
+                    android:textColor="@color/redColor"
+                    android:textSize="14.67sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp">
+
+                <in.delbird.delbirddriver.controller.MyProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="10"
+                    android:progressDrawable="@drawable/progress_bar_layout" />
+
+                <in.delbird.delbirddriver.customview.GothamLightTextView
+                    android:id="@+id/remaining_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="30s\nLEFT"
+                    android:textColor="@color/colorPrimary" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="32dp">
+
+                <ImageView
+                    android:id="@+id/accept_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/tick" />
+
+                <in.delbird.delbirddriver.customview.GothamBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/accept_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="Accept"
+                    android:textColor="@color/greenColor"
+                    android:textSize="14.67sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+
+            <in.delbird.delbirddriver.customview.GothamBoldTextView
+                android:id="@+id/eta_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="5 Minutes"
+                android:textColor="#1a1a1a"
+                android:textSize="14.67sp" />
+
+            <in.delbird.delbirddriver.customview.GothamBoldTextView
+                android:id="@+id/pickup_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Sector 16 Noida"
+                android:layout_marginBottom="8dp"
+                android:textColor="#212121"
+                android:textSize="14.67sp" />
+
+            <!--<in.codeyeti.delbirddriver.customview.GothamMediumTextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="16dp"-->
+
+                <!--android:gravity="center_horizontal"-->
+                <!--android:paddingBottom="4dp"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:paddingRight="16dp"-->
+                <!--android:paddingTop="4dp"-->
+                <!--android:text="5* Noew bike"-->
+                <!--android:textColor="@color/textColor" />-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

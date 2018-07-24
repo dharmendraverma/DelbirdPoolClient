@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <in.delbird.delbirddriver.customview.CircularImageView
+            android:id="@+id/user_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pro_pic"
+            app:border="true"
+            app:border_color="@color/colorBorder"
+            app:border_width="2dp" />
+
+
+        <in.delbird.delbirddriver.customview.GothamMediumTextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/user_pic"
+            android:text=""
+            android:textColor="@color/buttonTextColor"
+            android:textSize="16.67sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="16dp">
+
+            <in.delbird.delbirddriver.customview.GothamLightTextView
+                android:id="@+id/eta_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text=""
+                android:textColor="#212121"
+                android:textSize="14.67sp" />
+
+            <ImageButton
+                android:id="@+id/cancel_ride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eta_time"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/red_small_circle"
+                android:padding="8dp"
+                android:src="@drawable/cross" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

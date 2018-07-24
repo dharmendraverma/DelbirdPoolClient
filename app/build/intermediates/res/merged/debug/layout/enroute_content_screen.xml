@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Google Map Fragment-->
+        <fragment
+            android:id="@+id/googleMap"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--Pickup address-->
+        <LinearLayout
+            android:id="@+id/pickup_address_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:minHeight="40dp">
+
+
+            <TextView
+                android:layout_width="13.33dp"
+                android:layout_height="13.33dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/green_small_circle" />
+
+            <in.delbird.delbirddriver.customview.GothamLightTextView
+                android:id="@+id/pickup_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Pickup Address"
+                android:textColor="#212121"
+                android:textSize="16.67sp" />
+        </LinearLayout>
+
+        <!--Select Destination Layout-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/pickup_location"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/pickup_address_layout"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:background="@drawable/box"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@+id/pickup_location"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:padding="8dp"-->
+                <!--android:scaleType="center"-->
+                <!--android:src="@drawable/ic_search_grey600_24dp" />-->
+
+
+            <!--<in.codeyeti.delbirddriver.customview.GothamLightTextView-->
+                <!--android:id="@+id/destination_address"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="Enter Destination"-->
+                <!--android:textColor="#1A1A1A" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/driver_content_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/include2"
+            android:layout_marginTop="-28dp"
+            android:minWidth="100dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/call"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/green_small_circle"
+                android:padding="12dp"
+
+                android:src="@drawable/phone" />
+
+            <in.delbird.delbirddriver.customview.GothamLightTextView
+                android:id="@+id/ride_status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/black_small_circle"
+                android:gravity="center"
+                android:text="Arrived"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

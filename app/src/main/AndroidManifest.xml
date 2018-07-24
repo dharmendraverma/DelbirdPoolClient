@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.delbird.delbirddriver">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="in.delbird.delbirddriver.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="in.codeyeti.delbirddriver.permission.C2D_MESSAGE" />
+
+
+    <application
+        android:name="in.delbird.delbirddriver.controller.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/delbird_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name="in.delbird.delbirddriver.controller.GcmBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="in.codeyeti.delbirddriver" />
+            </intent-filter>
+        </receiver>
+        <service android:name="in.delbird.delbirddriver.controller.GcmMessageHandler" />
+
+        <activity android:name="in.delbird.delbirddriver.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="in.delbird.delbirddriver.activities.LoginScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="in.delbird.delbirddriver.activities.HomeScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="in.delbird.delbirddriver.activities.AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.delbird.delbirddriver.activities.HistorytabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.delbird.delbirddriver.activities.AcceptTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity
+            android:name="in.delbird.delbirddriver.activities.EnrouteScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="in.delbird.delbirddriver.activities.OnTrip"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="in.delbird.delbirddriver.activities.ViewParcel"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="in.delbird.delbirddriver.activities.ReceiptScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.delbird.delbirddriver.activities.ViewHistoryParcel"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="in.delbird.delbirddriver.activities.History"
+            android:screenOrientation="portrait"/>
+
+
+        <!--Debug key-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value=" AIzaSyAFIO1DRal8IvUGKILmBZ4xnvAAiWZ4V9A" />
+    </application>
+
+</manifest>

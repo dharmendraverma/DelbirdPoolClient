@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Google Map Fragment-->
+        <fragment
+            android:id="@+id/googleMap"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--Pickup address-->
+        <LinearLayout
+            android:id="@+id/pickup_address_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:minHeight="40dp">
+
+
+            <TextView
+                android:layout_width="13.33dp"
+                android:layout_height="13.33dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/green_small_circle" />
+
+            <in.delbird.delbirddriver.customview.GothamLightTextView
+                android:id="@+id/pickup_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Pickup Address"
+                android:textColor="#212121"
+                android:textSize="16.67sp" />
+        </LinearLayout>
+
+        <!--Select Destination Layout-->
+        <LinearLayout
+            android:id="@+id/parcel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pickup_address_layout"
+            android:layout_margin="16dp"
+            android:background="@drawable/box"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <in.delbird.delbirddriver.customview.GothamMediumTextView
+                android:id="@+id/receiver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="#1A1A1A" />
+
+            <in.delbird.delbirddriver.customview.GothamLightTextView
+                android:id="@+id/receiver_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="#1A1A1A" />
+
+
+            <in.delbird.delbirddriver.customview.GothamMediumTextView
+                android:id="@+id/receiver_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/green_phone"
+                android:drawablePadding="8dp"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/greenColor" />
+
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/driver_on_trip_content_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/include2"
+            android:layout_marginTop="-28dp"
+            android:minWidth="100dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/call"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/green_small_circle"
+                android:padding="12dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/end_ride"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/red_small_circle"
+                android:text="End Ride"
+                android:visibility="gone"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10.67sp"
+                android:padding="12dp"
+                android:src="@drawable/phone" />
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

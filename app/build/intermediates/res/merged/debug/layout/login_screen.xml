@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/car" />
+    </RelativeLayout>
+
+    <!--Login screen-->
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A1A1A"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/phone_edittext"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="24dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/phone_edittext"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:paddingLeft="24dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="96dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/login_button"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <!--OTP verification screen.-->
+    <RelativeLayout
+        android:id="@+id/verify_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A1A1A"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/otp_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/phone_edittext"
+            android:hint="Enter OTP"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="24dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/verify_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/otp_ET"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="96dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/login_button"
+            android:text="Verify"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="17sp" />
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/verify_button"-->
+        <!--android:layout_marginBottom="16dp">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="32dp"-->
+        <!--android:text="@string/back"-->
+        <!--android:textColor="#feb0" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/resend"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="32dp"-->
+        <!--android:text="@string/Resend"-->
+        <!--android:textColor="#feb0" />-->
+        <!--</RelativeLayout>-->
+
+    </RelativeLayout>
+
+
+</LinearLayout>

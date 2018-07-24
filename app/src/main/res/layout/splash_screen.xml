@@ -1,0 +1,32 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_splash"
+            android:layout_width="187.67dp"
+            android:layout_height="200.33dp"
+            android:src="@drawable/splashlogo"/>
+
+        <in.delbird.delbirddriver.customview.GothamMediumTextView
+            android:id="@+id/splashTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELBIRD"
+            android:layout_below="@+id/iv_splash"
+            android:textSize="38sp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

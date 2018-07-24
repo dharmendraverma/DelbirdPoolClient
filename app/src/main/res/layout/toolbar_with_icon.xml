@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+
+        <ImageView
+            android:id="@+id/view_parcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/add_parcel"
+            android:textColor="@color/white" />
+
+        <in.delbird.delbirddriver.customview.GothamMediumTextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:minWidth="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:padding="4dp"
+            android:text="0"
+            android:textSize="10.33sp"
+            android:gravity="center"
+            android:background="@drawable/red_small_circle"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/driver_content">
+
+            <in.delbird.delbirddriver.customview.GothamMediumTextView
+                android:id="@+id/no_parcel_found"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center"
+                android:text="@string/no_parcel"
+                android:visibility="gone"
+                android:textColor="@color/textColor" />
+
+
+            <ListView
+                android:id="@+id/parcel_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:background="#E2E2E2"
+                android:divider="@null"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/driver_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white">
+
+            <in.delbird.delbirddriver.customview.CircularImageView
+                android:id="@+id/user_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/pro_pic"
+                app:border="true"
+                app:border_color="@color/colorBorder"
+                app:border_width="2dp" />
+
+            <in.delbird.delbirddriver.customview.GothamMediumTextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/user_pic"
+                android:text=""
+                android:textColor="@color/buttonTextColor"
+                android:textSize="16.67sp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/driver_content"
+            android:layout_marginTop="-48dp"
+            android:minWidth="100dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/call"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/green_small_circle"
+                android:padding="12dp"
+
+                android:src="@drawable/phone" />
+
+            <in.delbird.delbirddriver.customview.GothamLightTextView
+                android:id="@+id/end_ride"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/red_small_circle"
+                android:gravity="center"
+                android:text="End\nTrip"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

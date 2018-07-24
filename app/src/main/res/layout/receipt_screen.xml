@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/submit"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/toplayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingTop="20dp">
+
+                        <in.delbird.delbirddriver.customview.GothamMediumTextView
+                            android:id="@+id/date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#1a1a1a"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+
+                        <in.delbird.delbirddriver.customview.GothamBoldTextView
+                            android:id="@+id/fare"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:drawableLeft="@drawable/rupee_icon"
+                            android:gravity="center_vertical"
+                            android:text=""
+                            android:textColor="#1a1a1a"
+                            android:textSize="50px" />
+
+                        <in.delbird.delbirddriver.customview.GothamMediumTextView
+                            android:id="@+id/payment_mode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_toLeftOf="@+id/fare"
+                            android:text="payment Mode"
+                            android:textColor="@color/redColor" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <in.delbird.delbirddriver.customview.GothamMediumTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TRIP SUMMARY"
+                        android:textColor="#1a1a1a"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <in.delbird.delbirddriver.customview.CircularImageView
+                        android:id="@+id/bilke_circle"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/receipt_bike"
+                        app:border="true"
+                        app:border_color="@color/colorBorder"
+                        app:border_width="2dp" />
+
+                    <in.delbird.delbirddriver.customview.CircularImageView
+                        android:id="@+id/user_pic"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/pro_pic"
+                        app:border="true"
+                        app:border_color="@color/colorBorder"
+                        app:border_width="2dp" />
+
+                    <in.delbird.delbirddriver.customview.CircularImageView
+                        android:id="@+id/map_circle"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/map_receipt"
+                        app:border="true"
+                        app:border_color="@color/colorBorder"
+                        app:border_width="2dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <in.delbird.delbirddriver.customview.NonScrollListView
+                android:id="@+id/parcel_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <in.delbird.delbirddriver.customview.GothamBoldTextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Ride Completed."
+        android:textColor="#ffff"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-8.4.0_6884c2fddb93491b283b2781c7e7c365a6922e62.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.1_b01d41e2afd37890c288cd1433ebbd63a7279a53.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-8.4.0_b02900a98fba2d50efe43a44174d4f90750d648e.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-8.4.0_54ef2ac46548a1cac751d92b3373e9c9efccecb6.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.4.0_8b85aff948a5aebe76daabc75f24df2c1ece075f.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_19f358cd0db7107a720ec3299379ea9c668428dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\okio-1.6.0_7a8ab04f1ca4baecac53b57efaee35d0b05292c6.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_16888d09cdfeb4ea98969d7be7ed63bce8165010.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-8.4.0_f7a5089b24a7c5734d5240cbeb6f956db0483a31.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-8.4.0_de2e0a0b97ffc9b31975b242fee308ab10584271.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-8.4.0_e1ef40ba05e61d0ea8801c346b334e4a4b454375.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-8.4.0_792eb37bc35c37f510f27faeef830bd8d5772e0f.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-8.4.0_90523ea8bc5faadbfa9b290ffe40694ff944fd5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_ccd81682849331a0d1ebde7d37dc512d0cd3805a.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_585b3741f4f16791d7bcd0717a5684e67287a8b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\library-1.0.19_725edc60641ff5dbb87f7858f19da7a143a493d1.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_021ff4a9008c61f7037d845ac27cb2a17e682882.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_3033ecb5e1aa27a047ddc44ba1ed9dcd4c3ca5f5.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-8.4.0_b9cc3642c63587a912e951ac63b38cdafd652243.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_457a519497f09448ed70223f2d7c7521a4a14766.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_cdacede0e04acb2e04b3bb2ba60319e53e862235.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_8e270cf6723bd16bb7e550deaa7a65b95f82e501.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-8.4.0_daf4ddf434b196605d9ad4c1513164a3f3eb8808.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_9eecdb7e65e4b19a4bcbad9230cfff11103eda66.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_22368cdf4e005ae56673dc222b14a85e132ad1b9.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-8.4.0_5f8d6a7c21a93c46d243220bdffe4facf8e9f740.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-8.4.0_1d6f9bacc7e81babb306d2819db337f58573fbc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\okhttp-3.0.1_6597c69abafbc2540045b1d71b55ab15bd5331f3.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_60ddc244892440000d460c99b4562b524cfbb749.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-8.4.0_36432aeaacd6c36be64010c69109661ee1de7a60.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_779abd798859b774d2428af1a36b2b32b968b813.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-8.4.0_53f22b0a951375595b09d1beb7fac8f75b0dd138.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4d3de1e946207667e76261421de0218f132960e0">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.maps.android-android-maps-utils-0.4.3_9f75314ba81e20f17ca73eb9e49486436829e3c4.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_5b211d63f64455ae55f6d4f2411656e5e1d7710d.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-8.4.0_8a7b0aa3e95af5c51267519af0490ef1c3dc0361.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-8.4.0_6686049d384e5ac131e63412f8ecba5a3261c0a2.jar" />
+    </item>
+    <item
+        jar="C:\DelbirdDriver\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\DelbirdDriver\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-8.4.0_73e362509ad14267d7c2f86dee25efb84aaa3f0c.jar" />
+    </item>
+
+</items>

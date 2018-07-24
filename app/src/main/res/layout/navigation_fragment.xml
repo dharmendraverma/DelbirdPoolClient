@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <in.delbird.delbirddriver.customview.CircularImageView
+            android:id="@+id/driver_pic"
+            android:layout_width="88.33dp"
+            android:layout_height="88.33dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="21.67dp"
+            android:src="@drawable/pro_pic"
+            app:border="true"
+            app:border_color="@color/colorBorder"
+            app:border_width="5dp" />
+
+        <in.delbird.delbirddriver.customview.GothamMediumTextView
+            android:id="@+id/driver_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/driver_pic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21.67dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="17.33sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/menu_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:divider="#a0a0a0"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
